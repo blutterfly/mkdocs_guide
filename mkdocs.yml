@@ -1,5 +1,5 @@
-site_name: My Awesome Docs
-site_url: https://example.com/
+site_name: MkDocs Guide
+site_url: https://blutterfly.github.io/mkdocs_guide
 
 theme:
   name: material
