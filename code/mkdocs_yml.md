@@ -1,3 +1,10 @@
+# Mkdocs Yaml template
+
+This mkdocs.yml is a good template.
+Modification log:
+Created  2025-08-11 blutterfly.  Implemented in mkdocs_guide
+
+```yaml
 site_name: MkDocs Guide
 site_url: https://blutterfly.github.io/mkdocs_guide
 
@@ -48,3 +55,4 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+~~~      

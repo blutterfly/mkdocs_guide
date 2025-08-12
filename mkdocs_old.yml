@@ -1,27 +1,22 @@
 site_name: MkDocs Guide
-site_url: https://blutterfly.github.io/mkdocs_guide
-
 repo_url: https://github.com/blutterfly/mkdocs_guide
-repo_name: GitHub Repository
-edit_uri: edit/main/docs/
+repo_name: mkdocs_guide
+site_url: https://blutterfly.github.io/mkdocs_guide/
 site_description: A comprehensive guide to using MkDocs with Material theme.
-site_author: blutterfly
+site_author: Blutterfly
+copyright: © 2025 dbnostix llc
 
 theme:
   name: material
   features:
-    - navigation.tabs # Enables tabbed navigation for pages
-    - navigation.tabs.sticky    # keeps the top tabs visible on scroll
-    - navigation.top # Places the navigation bar at the top of the page    
     - navigation.sections # Groups pages under section headers in the sidebar
-    - navigation.instant        # instant load without full page refresh
     - navigation.expand # Expands all navigation items in the sidebar by default
     - navigation.indexes # Allows 'index.md' files to be directly linked in navigation
     - toc.integrate # Integrates the Table of Contents into the main sidebar
     - search.suggest
     - content.code.copy
   palette:
-    - scheme: default 
+    - scheme: default
       primary: teal
       accent: deep orange
       toggle:
@@ -40,7 +35,7 @@ nav:
     - Getting Started: guide/getting-started.md
     - Configuration: guide/configuration.md
   - About: about.md
-  - External Link: https://www.google.com/ # Example of an external link
+  - External Link: https://mkdocs.org/ # Example of an external link
 
 markdown_extensions:
   - admonition

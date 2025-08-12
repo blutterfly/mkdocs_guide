@@ -1,4 +1,4 @@
-# Welcome to My Awesome Docs!
+# Welcome to MkDocs Guide
 
 This is the homepage of your documentation.
 
